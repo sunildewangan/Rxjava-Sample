@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.rxjavasample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RxjavaSample">
+        <activity android:name=".operator.combine.ZipOperatorActivity"></activity>
+        <activity android:name=".operator.combine.ConcatOperatorActivity" />
+        <activity android:name=".operator.combine.MergeOperatorActivity" />
+        <activity android:name=".operator.combine.JoinOperatorActivity" />
+        <activity android:name=".operator.combine.CombinLatestActivity" />
+        <activity android:name=".operator.filter.SkipOperatorActivity" />
+        <activity android:name=".operator.filter.SampleOperatorActivity" />
+        <activity android:name=".operator.filter.FilterOperatorActivity" />
+        <activity android:name=".operator.filter.DistinctOperatorActivity" />
+        <activity android:name=".operator.filter.DebounceOperatorActivity" />
+        <activity android:name=".operator.transform.GroupByOperatorActivity" />
+        <activity android:name=".operator.transform.ConcatMapOperatorActivity" />
+        <activity android:name=".operator.transform.SwitchMapOperatorActivity" />
+        <activity android:name=".operator.transform.FlatMapActivity" />
+        <activity android:name=".operator.transform.MapOperatorActivity" />
+        <activity android:name=".operator.transform.BufferOperatorActivity" />
+        <activity android:name=".operator.create.CreateOperatorActivity" />
+        <activity android:name=".operator.create.RangeOperatorActivity" />
+        <activity android:name=".operator.create.FromOperatorActivity" />
+        <activity android:name=".operator.create.JustOperatorActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
